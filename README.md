@@ -1,5 +1,5 @@
 # yearprogress
-
+PWA showing today's date and progress through the year
 ## Project setup
 ```
 npm install
