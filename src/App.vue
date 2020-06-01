@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <YearProgress/>
+    <Version version = "1.0" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import YearProgress from './components/YearProgress.vue'
+import Version from './components/Version.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    YearProgress,
+    Version
   }
 }
 </script>
